@@ -59,39 +59,6 @@ O projeto utiliza um banco de dados relacional para persistir as informações. 
 -   **`Favoritos`**: Mantém os filmes preferidos de cada usuário, permitindo acesso rápido.
 -   **`Historico`**: Funciona como um catálogo local, guardando informações dos filmes consultados (título, ano, gênero, nota do IMDb).
 
-
-##  Perguntas do Desafio
-
-### Qual foi o maior desafio técnico? 
-- Durante o desenvolvimento da solução acredito que o meu maior desafio técnico foi lidar com a criação da interface web por ser um campo que possuo menos domínio
-
-
-
-### Que insights interessantes o dashboard poderia oferecer?
-- Além de destacar o gênero preferido do usuário, quantidade de buscas, ano dos filmes mais assistido. O dashboard poderia revelar padrões de consumo (atores e diretores mais assistidos), tendências de popularidade de gêneros
-
-
-
-### Como você organizou e estruturou os dados coletados? 
-Os dados coletados foram estruturados em três tabelas principais:
-- Favoritos
-- Historico
-- Avaliacoes
-
-
-### O que faria diferente com mais tempo? 
-#### Com mais tempo, focaria em evoluções:
-- Segurança: Implementaria autenticação com tokens JWT.
-- Robustez: Adicionaria testes automatizados, serviço de envio de email e um sistema de exceções personalizadas.
-- Deploy: Dockerizaria a aplicação e realizaria o deploy em uma plataforma de nuvem como Render e Vercel.
-
-
-### Quais ferramentas/aceleradores de desenvolvimento utilizou?
-#### Utilizei ferramentas de IA como aceleradores de desenvolvimento:
-- Lovable AI: Para prototipar design e componentes de frontend de maneira ágil.
-- Gemini: Como assistente para solucionar dúvidas, refatorar código e consultar boas práticas.
-
-
 ## Diagrama de Casos de Uso
 <img src="Artefatos/Diagrama_Casos_Uso.png"><img/>
 
